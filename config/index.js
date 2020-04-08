@@ -4,8 +4,8 @@ var appname = process.env.APP_NAME
 var openshift_namespace = process.env.OPENSHIFT_BUILD_NAMESPACE
 openshift_namespace = openshift_namespace.toUpperCase()  //nodejs-www-1v2
 
-var server_port = process.env.WWW_NODE_SALARY_SERVICE_PORT
-var server_ip_address = process.env.WWW_NODE_SALARY_SERVICE_HOST
+var server_port = process.env.MYTN_TESTAPP_1_SERVICE_PORT
+var server_ip_address = process.env.MYTN_TESTAPP_1_SERVICE_HOST
 
 var hostname  = process.env.HOSTNAME
 var env  = process.env.NODE_ENV
